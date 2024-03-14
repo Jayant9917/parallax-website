@@ -1,0 +1,77 @@
+html,body {
+    margin: 0;
+    height: 100%;
+    padding: 0;
+    font-size: 16px;
+    font-family: "Lato",sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color:#666;
+}
+.pimg1 {
+    background-image: url(sora1.jpeg);
+    min-height: 100%;
+}
+
+.pimg2 {
+    background-image: url(sora2.jpg);
+    min-height: 700px;
+}
+
+.pimg3 {
+    background-image: url(sora3.webp);
+    min-height: 700px;
+}
+
+.pimg4 {
+    background-image: url(sora4.jpg);
+    min-height: 100%;
+}
+
+
+.pimg1 , .pimg2 , .pimg3 ,.pimg4{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width:100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform:uppercasse;
+}
+
+.textBg {
+    background-color: #0000008a;
+    color: white;
+    padding: 15px;
+    font-weight: 800;
+    border-radius: 20px;
+}
+.section {
+    padding: 50px 80px;
+    text-align: center;
+}
+
+.section-light {
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.section  p {
+    line-height: 30px;
+    letter-spacing: 1.2px;
+}
+span {
+    text-transform: uppercase;
+}
+h2{
+    text-transform: uppercase;
+}
